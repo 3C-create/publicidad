@@ -1,0 +1,19 @@
+.imagen{
+    width: 360px;
+    max-width: 100%;
+    opacity: 1;
+    border-style: solid;
+    border-color: #FFF;
+    padding-bottom: 30px;
+    padding:80px;
+    background-color: coral;
+}
+.section{
+    padding: 80px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    float:right;
+    position: relative;
+   background-color: blanchedalmond;
+    }

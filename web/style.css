@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#fff;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    z-index:100;
+    background:#fff;
+    height:95px;
+    width:100%;
+    position:fixed;
+    -webkit-box-shadow: -1px 10px 26px 12px rgba(0,0,0,0.61);
+    -moz-box-shadow: -1px 10px 26px 12px rgba(0,0,0,0.61);
+    box-shadow: -1px 10px 26px 12px rgba(0,0,0,0.61);
+}
+.logo img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:120px;
+    padding:15px 20px 15px 20px;
+    margin-left:200px;
+}
+.menu{
+    overflow:auto;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:120px;
+    font-weight:700;
+
+}
+
+.menu ul{
+    list-style:none;
+    padding:0;
+    margin:0 0 0 130px;
+
+}
+.menu li{
+float: left;
+list-style: none;
+}
+.menu a{
+    margin-left:20px;
+    line-height:70px;
+    text-align:right;
+    text-decoration: none;
+    color:black;
+}
+.menu a:hover{
+    color:blue;
+}
+.menu i{
+    margin-top: 25px;
+    margin-left:20px;
+    size:18px;
+    color:blue;
+}
+.slider{
+    z-index:10;
+    position:relative;
+    font-size: 2vw;
+    top: 0;
+    left:0;
+    width:100%;
+    height:900px;
+    background:blueviolet;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    text-align: center;
+    padding-top:450px;
+}
+.ola{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+.titulo{
+    font-size: 84px;
+    font-weight: 700;
+    color:white;
+}
+.titulo2{
+    font-size:44px;
+    font-weight:700px;
+    color:white;
+    margin-bottom: 60px;
+}
+.boton a{
+    text-decoration: none;
+    padding:15px 40px;
+    background:#000000;
+    color:#ffffff;
+    margin:auto;
+    border-radius:4px;
+    font-size:18px;
+    text-transform: uppercase;
+}
+.servicios{
+    z-index:10;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:750px;
+    text-align: center;
+    padding-top:80px;
+    padding-bottom: 80px;
+  
+
+}
+.titulo-servicios{
+    text-align: center;
+}
+.img-servicios{
+    width:400px;
+    padding-bottom: 30px;
+    
+}
+#texto{
+    width:1200px;
+    margin:auto;
+}
+.parallax{
+    width:100%;
+    height: 100vh;
+    background:url(ima/fondo.tarjet.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh- 50px);
+}
+.secth2{
+    color:black;
+    width:80px;
+    height:100px;
+    margin:auto;
+    text-align:center;
+    line-height:100px;
+    font-size:44px;
+    
+}
+.footer{
+    text-align:center;
+    font-size:16px;
+    color:black;
+    background:#f2f2f2;
+    height:60px;
+    line-height:60px;
+}
